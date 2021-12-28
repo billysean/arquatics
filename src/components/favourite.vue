@@ -48,11 +48,15 @@
 </template>
 
 <script>
+
+import goldfish1 from '../assets/goldfish1.jpg'
+import goldfish2 from '../assets/goldfish2.jpg'
+import goldfish3 from '../assets/goldfish3.jpg'
 const callouts = [
   {
     name: "Jumbo Jelly Head",
     description: "Red White",
-    imageSrc: "/assets/goldfish1.jpg",
+    imageSrc: goldfish1,
     imageAlt:
       "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
     href: "#",
@@ -60,7 +64,7 @@ const callouts = [
   {
     name: "Oranda 3co",
     description: "Thailand",
-    imageSrc: "/assets/goldfish2.jpg",
+    imageSrc: goldfish2,
     imageAlt:
       "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
     href: "#",
@@ -68,7 +72,7 @@ const callouts = [
   {
     name: "BigHead",
     description: "Panda Thailand",
-    imageSrc: "/assets/goldfish3.jpg",
+    imageSrc: goldfish3,
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "#",
   },
