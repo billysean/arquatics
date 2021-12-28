@@ -1,7 +1,7 @@
 <template>
   <div class="container relative">
     <Popover as="header" class="relative">
-      <div class="bg-gray-900">
+      <div class=" bg-gray-900">
         <nav
           class="
             relative
@@ -28,7 +28,7 @@
               <div class="-mr-2 flex items-center md:hidden">
                 <PopoverButton
                   class="
-                    bg-gray-900
+                   
                     rounded-md
                     p-2
                     inline-flex
