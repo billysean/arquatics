@@ -277,6 +277,9 @@
                     lg:h-full
                     lg:w-auto
                     lg:max-w-none
+                    pb-10
+                    md:mb-32
+                    lg:mb-0
                   "
                   src="../assets/goldfish.gif"
                   alt=""
