@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from '/src/pages/Home.vue'
-import Collection from '/src/pages/collections.vue'
+import Collections from '/src/pages/collections.vue'
 
 
 const routes = [
@@ -10,9 +10,9 @@ const routes = [
         component:Home
     },
     {
-        path:'/collection',
-        name:'Collection',
-        component: Collection
+        path:'/collections',
+        name:'Collections',
+        component: Collections
     }
 ]
 const router = createRouter({
